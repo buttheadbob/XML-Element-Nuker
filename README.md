@@ -16,7 +16,7 @@ Clean and simple to use following the prompts.
 ## How to run without building
 
 ### Step 1:
-Download the latest release build and run.
+Download the latest release build from https://github.com/buttheadbob/XML-Element-Nuker/releases and run.
 
 ----------------------------------------------------------------------------------------------------------------
 
