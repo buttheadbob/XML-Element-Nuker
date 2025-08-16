@@ -82,5 +82,6 @@ Do not leave your XML files in the Nuked folder, they will be deleted the next t
 
 
 
-
+I am available through my Discord server and have a dedicated channel for anybody to use, if you desire.
+https://discord.gg/rSuxGrHrrt
 
