@@ -175,16 +175,16 @@ foreach (string file in files)
 {
     try
     {
-        Stopwatch sw = new ();
+        Stopwatch sw = new();
         sw.Start();
-        
+
         if (!File.Exists(file)) continue;
         Console.WriteLine();
         XDocument doc = XDocument.Load(file);
         List<XElement> elementsToRemove = doc.Descendants()
             .Where(e => toBeRemoved.Contains(e.Name.LocalName))
             .ToList();
-        
+
         foreach (XElement element in elementsToRemove)
         {
             element.Remove();
@@ -197,9 +197,13 @@ foreach (string file in files)
         Console.ResetColor();
         Console.WriteLine("Finished processing " + Path.GetFileName(file));
         sw.Stop();
-    } catch (Exception e)
+    }
+    catch (Exception e)
     {
         Console.WriteLine("Failed to process file: " + file);
         Console.WriteLine(e);
     }
 }
+
+Console.WriteLine("Press any key to exit...");
+Console.ReadKey();
