@@ -55,6 +55,7 @@ You can enter the elements into the file now and then press [C] to continue, or 
 After pressing [C] from the previous step, 2 new folders will be created.
 
 ``ToNuke`` -> This is where you put "a copy" of the mods SBC files you need ModAdjuster to edit.
+
 ``Nuked`` -> The resulting XML files after processing the SBC files.
 
 Now copy the mods original SBC files into the ``ToNuke` folder and press [R].
