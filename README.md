@@ -12,6 +12,7 @@ Clean and simple to use following the prompts.
 
 ** Application will run automatically after build is completed.  Takes about 7 seconds to build. **
 
+*** For linux builds you will need to edit the build.bat file, replace the win-x64 with linux-x64. ***
 ## How to run without building
 
 ### Step 1:
